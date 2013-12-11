@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{% block content %}
+{% load staticfiles %}
+      <div class="container">
+        <div class="page-header">
+          <h1>About</h1>
+	  <img src="{% static 'images/profile_pic.jpg' %}" width=15% height=15% alt="ben_profile_pic" class="img-rounded">
+	  <p class="lead">
+	  Hello I'm Ben Waters, a Junior Computer Science student at George Mason University. I expect to graduate in May 2015. I love to program in my spare time and have tons of projects running through my head. I like to play the guitar. I play hockey and lacrosse as well. I'm passionate about computers and anything technology related. 
+	  </p>	
+	  <ul>
+	    <li> <h4> <a href="https://www.facebook.com/hairyjewbear"> Find me on Facebook </a> </h4>
+	    <li> <h4> <a href="http://www.linkedin.com/pub/benjamin-waters/4a/a90/b10/"> Connect with me on LinkedIn </a> </h4>
+	    <li> <h4> <a href="https://twitter.com/hairyjewbear"> Follow me on Twitter </a> </h4>
+	    <li> <h4> <a href="https://github.com/hairyjewbear"> Check out my GitHub </a> </h4>
+	  </ul>
+        </div>
+      </div>
+{% endblock %}

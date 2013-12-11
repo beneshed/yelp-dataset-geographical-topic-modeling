@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load leaflet_tags %}
+{% block content %}
+ <div class="container">
+        <div class="page-header">
+          <h1>Map</h1>
+	{% leaflet_map "main" callback="main_map_init" %}
+	<script type="text/javascript">
+        function main_map_init (map, options) {
+            // Use Leaflet API here
+	var main_polygon = L.polygon([
+        [32.876848024, -112.875482],
+        [34.002867, -112.875482],
+        [34.002867, -111.538143],
+        [32.876848024, -111.538143]
+	]).addTo(map);
+
+    var bounds1 = [[33.439857512,  -112.2068125], [34.002867, -111.538143]];
+    var rec1 = L.rectangle(bounds1, {color: "#ff7800", weight: 1}).addTo(map);
+    rec1.bindPopup("TEST <br> Test").openPopup();
+
+    var bounds2 = [[33.439857512,  -112.875482], [34.002867, -111.538143]];
+    var rec2 = L.rectangle(bounds2, {color: "#00FF04", weight: 1}).addTo(map);
+    rec2.bindPopup("Mexican <br> Bar <br> Night <br> Burger and Pizza <br> Coffee <br> Friendly Service").openPopup();
+
+    var bounds3 = [[32.876848024,  -112.875482], [33.439857512, -111.538143]];
+    var rec3 = L.rectangle(bounds3, {color: "#FFFB00", weight: 1}).addTo(map);
+    rec3.bindPopup("Fried Chicken <br> Waffles <br> Cheese Pizza").openPopup();
+
+    var bounds4 = [[32.876848024,  -112.2068125], [33.439857512, -111.538143]];
+    var rec4 = L.rectangle(bounds4, {color: "#FF9500", weight: 1}).addTo(map);
+    rec4.bindPopup("Chicken <br> Thai <br> Mexican <br> Service <br> Pizza <br> Hot Dogs ").openPopup();
+
+
+
+        }
+    </script>
+        </div>
+      </div>
+{% endblock %}

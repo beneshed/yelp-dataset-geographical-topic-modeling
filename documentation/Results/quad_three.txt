@@ -1,0 +1,10 @@
+'0.018*food + 0.018*chicken + 0.008*good + 0.008*waffles + 0.008*one + 0.007*very + 0.006*here + 0.006*place + 0.005*best + 0.005*great'
+'0.012*place + 0.010*here + 0.009*food + 0.008*good + 0.006*cheese + 0.006*out + 0.006*chicken + 0.005*waffles + 0.005*one + 0.005*well
+'0.014*place + 0.011*good + 0.009*very + 0.008*really + 0.007*here + 0.007*great + 0.005*chicken + 0.005*food + 0.005*out + 0.005*pizza'
+'0.014*good + 0.013*food + 0.010*place + 0.009*great + 0.008*here + 0.007*chicken + 0.007*very + 0.007*time + 0.006*go + 0.006*out'
+'0.023*food + 0.017*chicken + 0.011*fried + 0.010*good + 0.010*place + 0.008*waffles + 0.007*out + 0.007*service + 0.006*go + 0.006*time'
+'0.019*good + 0.018*chicken + 0.015*food + 0.013*place + 0.008*here + 0.008*waffles + 0.006*great + 0.006*im + 0.006*service + 0.006*fried'
+'0.011*place + 0.011*food + 0.011*very + 0.008*out + 0.008*chicken + 0.007*great + 0.007*cheese + 0.006*up + 0.006*good + 0.006*service'
+'0.013*food + 0.011*good + 0.010*place + 0.009*waffles + 0.009*one + 0.008*chicken + 0.008*great + 0.007*up + 0.007*here + 0.007*out'
+'0.017*chicken + 0.013*food + 0.011*good + 0.010*place + 0.008*here + 0.007*always + 0.006*waffles + 0.006*go + 0.006*very + 0.006*out'
+'0.015*place + 0.011*chicken + 0.010*good + 0.009*food + 0.008*very + 0.007*great + 0.007*up + 0.007*one + 0.006*fried + 0.006*out']
